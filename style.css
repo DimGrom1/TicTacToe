@@ -1,0 +1,79 @@
+form{
+    width: 300px;
+    margin: auto;
+    background: rgb(143, 255, 255);
+    overflow: hidden;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    background-color: white;
+    color: black;
+}
+a{
+    font-size: 30px;
+    border-radius: 20px;
+    background: white;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(90deg, rgba(14,27,172,1) 21%, rgba(228,141,9,0.9640231092436975) 42%, rgba(173,213,35,1) 62%, rgba(226,24,225,0.6867121848739496) 82%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(14,27,172,1) 21%, rgba(228,141,9,0.9640231092436975) 42%, rgba(173,213,35,1) 62%, rgba(226,24,225,0.6867121848739496) 82%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+body{
+    background-image: url("tmb_164864_8740.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+} 
+.scores p{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.scores{
+    text-align: center;
+}
+.pole,.decrease{
+    border: 1px solid black;
+    vertical-align: top;
+    width: auto;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+}
